@@ -8,11 +8,11 @@ class EventQueue {
     return event;
   }
 
-  public getNextEvent(): Event | null {
+  public getNextEvent(): Event | undefined {
     if (this.events.length !== 0) {
       return this.events.shift();
     } else {
-      return null;
+      return undefined;
     }
   }
 }

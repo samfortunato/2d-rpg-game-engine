@@ -17,7 +17,7 @@ class Player extends Entity {
     this.height = 32;
   }
 
-  public update(event: Event): void {
+  public update(event?: Event): void {
     switch (this.state) {
       case State.Idle:
         break;
