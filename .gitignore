@@ -1,0 +1,6 @@
+# Basic
+.DS_Store
+node_modules/
+
+# Ignore distribution directory
+js/

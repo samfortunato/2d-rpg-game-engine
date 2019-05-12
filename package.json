@@ -1,0 +1,17 @@
+{
+  "name": "2d-rpg-game-engine",
+  "version": "1.0.0",
+  "description": "A 2D, top-down RPG engine written in TypeScript.",
+  "main": "./js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sam Fortunato",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.4.5",
+    "webpack": "^4.31.0"
+  }
+}
