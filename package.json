@@ -4,7 +4,8 @@
   "description": "A 2D, top-down RPG engine written in TypeScript.",
   "main": "./js/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch --move=development"
   },
   "keywords": [],
   "author": "Sam Fortunato",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "ts-loader": "^6.0.0",
     "typescript": "^3.4.5",
-    "webpack": "^4.31.0"
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   }
 }
