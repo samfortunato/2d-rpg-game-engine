@@ -1,4 +1,5 @@
 import Entity from './entity';
+import Event from './../core_engine/event';
 
 enum State {
   Idle = 'IDLE'
@@ -16,7 +17,7 @@ class Player extends Entity {
     this.height = 32;
   }
 
-  public update(): void {
+  public update(event: Event): void {
     switch (this.state) {
       case State.Idle:
         break;

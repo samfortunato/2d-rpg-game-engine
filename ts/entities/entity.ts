@@ -1,3 +1,5 @@
+import Event from './../core_engine/event';
+
 class Entity {
   public name: string;
   public xPos: number;
@@ -5,7 +7,7 @@ class Entity {
   public width: number;
   public height: number;
 
-  public update(): void {}
+  public update(event: Event): void {}
 }
 
 export default Entity;
